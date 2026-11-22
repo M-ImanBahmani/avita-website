@@ -1,293 +1,281 @@
 @media screen and (max-width: 1200px) {
-  main {
-    min-height: 600px;
-  }
+    main {
+        min-height: 600px;
+    }
 
-  .top-navigation ul {
-    column-gap: 20px;
-  }
+    .top-navigation ul {
+        column-gap: 20px;
+    }
 
-  .example-menu ul {
-    width: 70%;
-  }
+    .example-menu ul {
+        width: 70%;
+    }
 
-  .labels {
-    row-gap: 10px;
-  }
+    .labels {
+        row-gap: 10px;
+    }
 
-  .details i {
-    position: absolute;
-    top: 2px;
-    right: -23px;
-  }
+    .details i {
+        position: absolute;
+        top: 2px;
+        right: -23px;
+    }
 
-  #main-footer .container {
-    gap: 25px;
-  }
+    #main-footer .container {
+        gap: 25px;
+    }
 }
 
 @media screen and (max-width: 992px) {
-  .content-menu {
-    width: 365px;
-  }
+    .content-menu {
+        width: 365px;
+    }
 
-  .top-navigation img {
-    width: 100px;
-  }
+    .top-navigation img {
+        width: 100px;
+    }
 
-  .top-navigation ul {
-    margin-top: 20px;
-  }
+    .top-navigation ul {
+        margin-top: 20px;
+    }
 
-  .top-navigation li a:link,
-  .top-navigation li a:visited {
-    font-size: 15px;
-  }
+    .top-navigation li a:link, .top-navigation li a:visited {
+        font-size: 15px;
+    }
 
-  .top-menu {
-    font-size: 18px;
-  }
+    .top-menu {
+        font-size: 18px;
+    }
 
-  .top-navigation li a::after {
-    height: 3px;
-  }
+    .top-navigation li a::after {
+        height: 3px;
+    }
 
-  form[action="#"] span {
-    width: 80%;
-    max-width: 450px;
-  }
+    form[action="#"] span {
+        width: 80%;
+        max-width: 450px;
+    }
 
-  form[action="#"] span input {
-    width: 100%;
-    min-height: 50px;
-  }
+    form[action="#"] span input {
+        width: 100%;
+        min-height: 50px;
+    }
 
-  .service-wrapper {
-    flex-wrap: wrap;
-    row-gap: 20px;
-  }
+    .service-wrapper {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
 
-  .service {
-    flex-basis: 48%;
-  }
+    .service {
+        flex-basis: 48%;
+    }
 
-  .example-menu ul {
-    width: 95%;
-  }
+    .example-menu ul {
+        width: 95%;
+    }
 
-  #example-wrapper {
-    grid-template-columns: auto auto;
-  }
+    #example-wrapper {
+        grid-template-columns: auto auto;
+    }
 
-  .comment-img-left {
-    width: 80px;
-  }
+    .comment-img-left {
+        width: 80px;
+    }
 
-  .team-wrapper {
-    flex-wrap: wrap;
-    row-gap: 20px;
-  }
+    .team-wrapper {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
 
-  .team-wrapper article {
-    flex-basis: 48%;
-  }
+    .team-wrapper article {
+        flex-basis: 48%;
+    }
 
-  #main-footer .container {
-    flex-wrap: wrap;
-    row-gap: 20px;
-  }
+    #main-footer .container {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
 
-  .application,
-  .quick-access,
-  .right-footer,
-  .left-footer {
-    flex-basis: 48%;
-  }
+    .application, .quick-access, .right-footer, .left-footer {
+        flex-basis: 48%;
+    }
 
-  .brands {
-    column-gap: 35px;
-  }
+    .brands {
+        column-gap: 35px;
+    }
 
-  .application-img {
-    grid-template-columns: auto auto;
-    column-gap: 5px;
-  }
+    .application-img {
+        grid-template-columns: auto auto;
+        column-gap: 5px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-  .content-menu {
-    width: 270px;
-  }
+    .content-menu {
+        width: 270px;
+    }
 
-  .top-navigation ul li {
-    display: none;
-  }
+    .top-navigation ul li {
+        display: none;
+    }
 
-  .top-navigation ul li:last-child {
-    display: block;
-  }
+    .top-navigation ul li:last-child {
+        display: block;
+    }
 
-  .top-navigation ul li:last-child a::after {
-    display: none;
-  }
+    .top-navigation ul li:last-child a::after {
+        display: none;
+    }
 
-  .search-wrapper {
-    margin-top: 30px;
-  }
+    .search-wrapper {
+        margin-top: 30px;
+    }
 
-  .service {
-    flex-basis: 100%;
-  }
+    .service {
+        flex-basis: 100%;
+    }
 
-  form[action="#"] span {
-    width: 90%;
-    max-width: 500px;
-  }
+    form[action="#"] span {
+        width: 90%;
+        max-width: 500px;
+    }
 
-  form[action="#"] span input {
-    min-height: 50px;
-    width: 100%;
-  }
+    form[action="#"] span input {
+        min-height: 50px;
+        width: 100%;
+    }
 
-  form[action="#"] span label {
-    font-size: 15px;
-  }
+    form[action="#"] span label {
+        font-size: 15px;
+    }
 
-  .number {
-    flex-wrap: wrap;
-    gap: 20px;
-  }
+    .number {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
 
-  .number-wrapper {
-    flex-basis: 48%;
-    margin-top: 50px;
-  }
+    .number-wrapper {
+        flex-basis: 48%;
+        margin-top: 50px;
+    }
 
-  .comment-content-top {
-    flex-direction: column;
-    row-gap: 20px;
-    text-align: center;
-    position: relative;
-  }
+    .comment-content-top {
+        flex-direction: column;
+        row-gap: 20px;
+        text-align: center;
+        position: relative;
+    }
 
-  .comment-img-left {
-    width: 50px;
-    position: absolute;
-    top: 30px;
-    left: 10px;
-  }
+    .comment-img-left {
+        width: 50px;
+        position: absolute;
+        top: 30px;
+        left: 10px;
+    }
 
-  #contact-us {
-    flex-wrap: wrap;
-    row-gap: 20px;
-  }
+    #contact-us {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
 
-  .application,
-  .quick-access,
-  .right-footer,
-  .left-footer {
-    flex-basis: 47%;
-  }
+    .application, .quick-access, .right-footer, .left-footer {
+        flex-basis: 47%;
+    }
 
-  .brands {
-    column-gap: 15px;
-  }
+    .brands {
+        column-gap: 15px;
+    }
 
-  .application-img {
-    grid-template-columns: auto;
-    column-gap: 5px;
-  }
+    .application-img {
+        grid-template-columns: auto;
+        column-gap: 5px;
+    }
 }
 
 @media screen and (max-width: 576px) {
-  .menu-2 {
-    flex-direction: column;
-    align-items: center;
-  }
+    .menu-2 {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .right-menu-2,
-  .left-menu-2 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+    .right-menu-2, .left-menu-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .content-menu {
-    width: 90%;
-    max-width: 320px;
-  }
+    .content-menu {
+        width: 90%;
+        max-width: 320px;
+    }
 
-  .search-wrapper h1 {
-    font-size: 34px;
-  }
+    .search-wrapper h1 {
+        font-size: 34px;
+    }
 
-  form[action="#"] span {
-    width: 92%;
-  }
+    form[action="#"] span {
+        width: 92%;
+    }
 
-  form[action="#"] span input {
-    width: 100%;
-    padding: 10px 15px 10px 95px;
-  }
+    form[action="#"] span input {
+        width: 100%;
+        padding: 10px 15px 10px 95px;
+    }
 
-  form[action="#"] span label {
-    padding: 8px 15px;
-    font-size: 14px;
-  }
+    form[action="#"] span label {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
 
-  #comment-people {
-    flex-wrap: wrap;
-  }
+    #comment-people {
+        flex-wrap: wrap;
+    }
 
-  #comment-right-coll,
-  #comment-left-coll {
-    flex-basis: 100%;
-  }
+    #comment-right-coll, #comment-left-coll {
+        flex-basis: 100%;
+    }
 
-  .example-menu ul {
-    flex-direction: column;
-    border-radius: 20px;
-    row-gap: 10px;
-  }
+    .example-menu ul {
+        flex-direction: column;
+        border-radius: 20px;
+        row-gap: 10px;
+    }
 
-  .example-menu ul li {
-    flex-basis: 100%;
-  }
+    .example-menu ul li {
+        flex-basis: 100%;
+    }
 
-  #example-wrapper {
-    grid-template-columns: auto;
-  }
+    #example-wrapper {
+        grid-template-columns: auto;
+    }
 
-  .team-wrapper article {
-    flex-basis: 100%;
-  }
+    .team-wrapper article {
+        flex-basis: 100%;
+    }
 
-  #contact-us {
-    flex-direction: column;
-    row-gap: 20px;
-  }
+    #contact-us {
+        flex-direction: column;
+        row-gap: 20px;
+    }
 
-  #contact-us article {
-    flex-basis: 100%;
-  }
+    #contact-us article {
+        flex-basis: 100%;
+    }
 
-  #form button {
-    margin-bottom: 100px;
-  }
+    #form button {
+        margin-bottom: 100px;
+    }
 
-  .application,
-  .quick-access,
-  .right-footer,
-  .left-footer {
-    flex-basis: 100%;
-  }
+    .application, .quick-access, .right-footer, .left-footer {
+        flex-basis: 100%;
+    }
 
-  .right-footer {
-    text-align: center;
-  }
+    .right-footer {
+        text-align: center;
+    }
 
-  .application-img {
-    margin: 0 auto;
-  }
+    .application-img {
+        margin: 0 auto;
+    }
 }

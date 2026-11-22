@@ -71,4 +71,5 @@ Open index.html directly in your browser (or use Live Server in VS Code).
 
 Mohammad Iman Bahmani (محمد ایمان بهمنی)
 
-GitHub & telegram : @M-ImanBahmani 
+- **GitHub:** [@M-ImanBahmani](https://github.com/M-ImanBahmani)
+- **Telegram:** [@M-ImanBahmani](https://t.me/M-ImanBahmani)

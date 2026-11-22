@@ -1,12 +1,14 @@
 @font-face {
     font-family: 'my_iran_yekan';
     font-weight: normal;
+    font-display: swap;
     src: url("fonts/iranyekan/ttf/iranyekanwebregular.ttf") format('truetype');
 }
 
 @font-face {
     font-family: 'my_pinar';
     font-weight: bold;
+    font-display: swap;
     src: url("fonts/pinar/pinar-700.woff2") format('woff2');
 }
 
@@ -160,6 +162,7 @@ main {
     animation-name: move;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    will-change: transform;
     position: absolute;
     top: 0;
     left: 0;
